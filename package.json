@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@mdi/font": "^7.2.96",
+    "animate.css": "^4.1.1",
+    "isotope-layout": "^3.0.6",
+    "typed.js": "^2.0.16"
+  }
+}

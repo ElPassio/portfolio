@@ -1,0 +1,69 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+.op-container{
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: auto;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgb(86, 165, 235, 0.25);
+    background-color: white;
+    transform: translateX(-1.0rem);
+    transition: transform 250ms;
+}
+
+.op-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateX(1.0rem);
+    transition: transform 250ms;
+  }
+  
+  .op-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: #56a5eb;
+    color: white;
+  }
+  
+  .op-texto {
+    padding: 1.5rem;
+    width: 100%;
+  }
+
+.correcto{
+  animation-duration: 1s;
+    background-color: rgb(76, 157, 76);
+  }
+
+.incorrecto{
+  animation-duration: 1s;
+    background-color: rgb(167, 42, 42);
+  }
+ 
+#hud{
+  display: flex;            /*POSICIONA EL HUD*/
+  justify-content:space-around;
+}
+
+.hud-prefix{
+  text-align:center; /*ALINEA PUNTUACION Y PREGUNTAS*/
+  font-size: 2rem;
+}
+
+.hud-texto-principal{
+  text-align: center; /*ALINEA 1/3 Y EL 0 CON EL TEXTO*/
+
+}
+
+#barraprogreso{
+  width: 20rem;
+  height: 4rem;
+  border: solid #56a5eb;
+  margin-top: 1.5rem;
+}
+
+#barraprogresollena{
+  height: 3.4rem;
+  background-color: #56a5eb;
+  width: 0%;
+  
+}
