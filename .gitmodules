@@ -1,0 +1,7 @@
+[submodule "Portfolio"]
+	path = Portfolio
+	url = https://github.com/ElPassio/Portfolio
+
+[submodule "proyecto1"]
+	path = Paginas/proyecto1
+	url = https://github.com/ElPassio/proyecto1
