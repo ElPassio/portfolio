@@ -166,13 +166,9 @@
 }
 
 .services .service-box .title {
-    padding: 0 0 0 70px;
+    padding: 8px 0 0 70px;
 }
 
-.services .service-box .title span {
-    color: #3c3dc1;
-    font-size: 16px;
-}
 
 .services .service-box .title h4{
     font-size:18px;
