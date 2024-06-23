@@ -1,0 +1,13 @@
+{
+    "title": "Soy <span>Agustin</span>",
+    "subtitle": "Aquí puedes encontrar información sobre mí y también puedes ver algunos proyectos que he realizado, con más en progreso.",
+    "btn_whatsapp": "Whatsapp",
+    "knowledge": "Conocimientos",
+    "about_me": "Sobre mí",
+    "about_text1": "Tengo 22 años y vivo en San Clemente del Tuyú, Buenos Aires, Argentina.<br>Estoy cursando la carrera de Ciencias de la Computación en la Universidad Atlántida Argentina ubicada en Mar de Ajó. También estoy en busca de mi primer trabajo como Desarrollador de Software.",
+    "about_text2": "Empecé a estudiar por mi cuenta, tomando algunos cursos de HTML 5, CSS 3 y Javascript en la plataforma UDEMY, también tomé cursos de React, NodeJS y Oracle SQL y aprendí lo básico de programación en la Universidad además del lenguaje C.",
+    "about_text3": "Aprobé el examen B2 First (First Certificate in English), lo que demuestra que puedo comunicarme en inglés con fluidez. En mi tiempo libre juego videojuegos mientras escucho música, o a veces decido hacer algunos proyectos de diseño web.",
+    "my_projects": "Mis Proyectos",
+    "contact": "Contacto",
+    "typed_strings": ["Soy un Desarrollador web, y esta es mi pagina"]
+}

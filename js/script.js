@@ -1,11 +1,53 @@
-(function ($) {
-    var typed = new Typed("span.txt-rotate", {
-        strings: ["I'm a sofware developer, and this is my page"],
+var typed; // Define una variable global para almacenar la referencia de Typed
+
+function initializeTyped(strings) {
+    if (typed) {
+        typed.destroy(); // Destruye el objeto Typed existente si ya existe
+    }
+
+    typed = new Typed("span.txt-rotate", {
+        strings: strings,
         typeSpeed: 100,
         backSpeed: 50,
         fadeOut: false,
         smartBackspace: true,
         loop: true,
     });
+}
+
+(function ($) {
+    initializeTyped(["I'm a software developer, and this is my page"]);
 })(jQuery);
 
+document.getElementById('language-toggle').addEventListener('click', function() {
+    var currentLang = document.documentElement.lang;
+
+    if (currentLang === 'en') {
+        loadTranslations('/js/es.json');
+        document.getElementById('language-toggle').textContent = 'Español';
+        document.documentElement.lang = 'es';
+    } else {
+        loadTranslations('/js/en.json');
+        document.getElementById('language-toggle').textContent = 'English';
+        document.documentElement.lang = 'en';
+    }
+});
+
+function loadTranslations(langFile) {
+    fetch(langFile)
+        .then(response => response.json())
+        .then(data => {
+            document.querySelector('.home .titles h1').innerHTML = data.title;
+            document.querySelector('.home .titles p').textContent = data.subtitle;
+            document.querySelector('.home .titles .btn').textContent = data.btn_whatsapp;
+            document.querySelector('.services .sec-title h2').textContent = data.knowledge;
+            document.querySelector('.about .sec-title h2').textContent = data.about_me;
+            document.getElementById('about-1').innerHTML = data.about_text1;
+            document.getElementById('about-2').innerHTML = data.about_text2;
+            document.getElementById('about-3').innerHTML = data.about_text3;
+            document.querySelector('.work .sec-title h2').textContent = data.my_projects;
+            document.querySelector('#footer h4').textContent = data.contact;
+            initializeTyped(data.typed_strings);
+        })
+        .catch(error => console.error('Error loading translations:', error));
+}

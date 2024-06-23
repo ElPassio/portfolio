@@ -1,0 +1,13 @@
+{
+    "title": "I'm <span>Agustin</span>",
+    "subtitle": "Here you can find information about me and you can also take a look at some projects I've made with more in progress.",
+    "btn_whatsapp": "Whatsapp",
+    "knowledge": "Knowledge",
+    "about_me": "About me",
+    "about_text1": "I'm 22 years old and I live in San Clemente del Tuyú, Buenos Aires, Argentina.<br>I'm doing a Computer Science degree at the Atlantida Argentina University located in Mar de Ajó. I'm also in search of my first job as a Software Developer.",
+    "about_text2": "I began studying by myself, taking some courses of HTML 5, CSS 3 and Javascript from the UDEMY platform. I also took React, NodeJS and Oracle SQL courses and learnt the basics of programming at University in addition to C language.",
+    "about_text3": "I passed the B2 First exam (First Certificate in English) which shows that I can communicate in English fluently. In my free time, I play video games while listening to music, or sometimes I decide to make some web design projects.",
+    "my_projects": "My Projects",
+    "contact": "Contact",
+    "typed_strings": ["I'm a software developer, and this is my page"]
+}

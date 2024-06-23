@@ -223,12 +223,10 @@
     text-align: center;
     
 }
-
-.about-box p{
-    color:white;
-    text-align: center;
+.about-text {
+    color: white; 
+    text-align: center; 
 }
-
 
 .work{
     background-color: #f3f4fc;
@@ -377,4 +375,25 @@ hr{
     color: #84fee0;
     text-decoration: none;
     transition: 0.5s;
+}
+
+.language-switcher {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#language-btn {
+    padding: 10px;
+    cursor: pointer;
+}
+.language-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    background-color: #ffffff;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    cursor: pointer;
 }
