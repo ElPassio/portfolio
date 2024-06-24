@@ -12,7 +12,11 @@
         <link rel="stylesheet" href="css/style.css" type="text/css" />
     </head>
     <body>
-        <div class="language-toggle" id="language-toggle">English</div>
+        <div class="language-toggle">
+            <button id="languageButton" onclick="toggleLanguage()">
+            <img id="languageFlag" src="images/en.png" alt="Language Flag">
+        </button>
+        </div>
         <section class="home" id="home">
             <div class="titles">
                 <div class="titles-wrap">
@@ -27,7 +31,6 @@
                 </div>
             </div>
         </section>
-
         <section class="services" id="services">
             <div class="container">
                 <div class="row">
@@ -205,7 +208,7 @@
                             <a href="https://elpassio.github.io/Weather-API/" target="_blank" class="popup-image">
                                 <img src="images/weather.jpg" alt="Work Image 1" class="work-img img-fluid">
                                 <div class="work-overlay">
-                                    <div class="work-caption text-white text-center">
+                                    <div class="work-caption text-white text-center proyecto1">
                                         <div class="overlay-icon-holder">
                                             <ul class="list-inline">
                                                 <li class="list-inline-item">
@@ -228,7 +231,7 @@
                             <a href="https://elpassio.github.io/Pagina-API-Operaciones/" target="_blank" class="popup-image">
                                 <img src="images/operac.png" alt="Work Image 2" class="work-img img-fluid">
                                 <div class="work-overlay">
-                                    <div class="work-caption text-white text-center">
+                                    <div class="work-caption text-white text-center proyecto2">
                                         <div class="overlay-icon-holder">
                                             <ul class="list-inline">
                                                 <li class="list-inline-item">
@@ -239,7 +242,7 @@
                                             </ul>
                                         </div>
                                         <h5>API Consumer and Provider</h5>
-                                        <p>A calculator-like front that sends two numbers to <br>my Provider API and returns the result<br>of the operation<br>(Response time can be long)</p>
+                                        <p>A calculator-like front that sends two numbers to <br>my Provider API and returns the result<br>of the operation depending of the endpoint<br>(Response time can be long)</p>
                                     </div>
                                 </div>
                             </a>

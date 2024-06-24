@@ -9,5 +9,9 @@
     "about_text3": "I passed the B2 First exam (First Certificate in English) which shows that I can communicate in English fluently. In my free time, I play video games while listening to music, or sometimes I decide to make some web design projects.",
     "my_projects": "My Projects",
     "contact": "Contact",
-    "typed_strings": ["I'm a software developer, and this is my page"]
+    "typed_strings": ["I'm a software developer, and this is my page"],
+    "proyecto1_h5": "Weather API",
+    "proyecto1_p": "Here you can see the current weather in an<br>area specifying country and Postal Code",
+    "proyecto2_h5": "API Consumer and Provider",
+    "proyecto2_p": "A calculator-like front that sends two numbers to <br>my Provider API and returns the result<br>of the operation depending of the endpoint<br>(Response time can be long)"
 }

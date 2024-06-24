@@ -9,5 +9,9 @@
     "about_text3": "Aprobé el examen B2 First (First Certificate in English), lo que demuestra que puedo comunicarme en inglés con fluidez. En mi tiempo libre juego videojuegos mientras escucho música, o a veces decido hacer algunos proyectos de diseño web.",
     "my_projects": "Mis Proyectos",
     "contact": "Contacto",
-    "typed_strings": ["Soy un Desarrollador web, y esta es mi pagina"]
+    "typed_strings": ["Soy un Desarrollador web, y esta es mi pagina"],
+    "proyecto1_h5": "API del Clima",
+    "proyecto1_p": "Aqui puedes ver el clima actual en alguna localidad<br>enviando como parametros Pais y Codigo Postal",
+    "proyecto2_h5": "API Consumidor y API Proveedor",
+    "proyecto2_p": "Un front similar a una calculadora que envia 2 numeros a mi API proveedora y devuelve<br> el resultado dependiendo de la operacion/endpoint<br>La respuesta puede tardar"
 }

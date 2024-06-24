@@ -19,16 +19,16 @@ function initializeTyped(strings) {
     initializeTyped(["I'm a software developer, and this is my page"]);
 })(jQuery);
 
-document.getElementById('language-toggle').addEventListener('click', function() {
+document.getElementById('languageButton').addEventListener('click', function() {
     var currentLang = document.documentElement.lang;
 
     if (currentLang === 'en') {
         loadTranslations('/js/es.json');
-        document.getElementById('language-toggle').textContent = 'Español';
+        document.getElementById('languageFlag').src = 'images/es.png';
         document.documentElement.lang = 'es';
     } else {
         loadTranslations('/js/en.json');
-        document.getElementById('language-toggle').textContent = 'English';
+        document.getElementById('languageFlag').src = 'images/en.png';
         document.documentElement.lang = 'en';
     }
 });
@@ -46,6 +46,11 @@ function loadTranslations(langFile) {
             document.getElementById('about-2').innerHTML = data.about_text2;
             document.getElementById('about-3').innerHTML = data.about_text3;
             document.querySelector('.work .sec-title h2').textContent = data.my_projects;
+            document.querySelector('.proyecto1 h5').innerHTML = data.proyecto1_h5;
+            document.querySelector('.proyecto1 p').innerHTML = data.proyecto1_p;
+            document.querySelector('.proyecto2 h5').innerHTML = data.proyecto2_h5;
+            document.querySelector('.proyecto2 p').innerHTML = data.proyecto2_p;
+            
             document.querySelector('#footer h4').textContent = data.contact;
             initializeTyped(data.typed_strings);
         })
