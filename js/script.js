@@ -23,11 +23,11 @@ document.getElementById('languageButton').addEventListener('click', function() {
     var currentLang = document.documentElement.lang;
 
     if (currentLang === 'en') {
-        loadTranslations('Portfolio/js/es.json');
+        loadTranslations('/js/es.json');
         document.getElementById('languageFlag').src = 'images/es.png';
         document.documentElement.lang = 'es';
     } else {
-        loadTranslations('Portfolio/js/en.json');
+        loadTranslations('/js/en.json');
         document.getElementById('languageFlag').src = 'images/en.png';
         document.documentElement.lang = 'en';
     }
