@@ -13,5 +13,7 @@
     "proyecto1_h5": "API del Clima",
     "proyecto1_p": "Aqui puedes ver el clima actual en alguna localidad<br>enviando como parametros Pais y Codigo Postal",
     "proyecto2_h5": "API Consumidor y API Proveedor",
-    "proyecto2_p": "Un front similar a una calculadora que envia 2 numeros a mi API proveedora y devuelve<br> el resultado dependiendo de la operacion/endpoint<br>La respuesta puede tardar"
+    "proyecto2_p": "Un front similar a una calculadora que envia 2 numeros a mi API proveedora y devuelve<br> el resultado dependiendo de la operacion/endpoint<br>La respuesta puede tardar",
+    "proyecto3_h5": "Chat en Vivo",
+    "proyecto3_p": "Un simple chat en vivo hecho con NodeJS, socket.io y SQL(desplegado en un servicio de hosting gratuito, puede tardar en cargar)"
 }

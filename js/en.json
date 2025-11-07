@@ -13,5 +13,7 @@
     "proyecto1_h5": "Weather API",
     "proyecto1_p": "Here you can see the current weather in an<br>area specifying country and Postal Code",
     "proyecto2_h5": "API Consumer and Provider",
-    "proyecto2_p": "A calculator-like front that sends two numbers to <br>my Provider API and returns the result<br>of the operation depending of the endpoint<br>(Response time can be long)"
+    "proyecto2_p": "A calculator-like front that sends two numbers to <br>my Provider API and returns the result<br>of the operation depending of the endpoint<br>(Response time can be long)",
+    "proyecto3_h5": "Live Chat",
+    "proyecto3_p": "A simple live chat made with NodeJS, socket.io and SQL(deployed on a free hosting service, may take a while to load)"
 }
