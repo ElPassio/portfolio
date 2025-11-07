@@ -52,7 +52,6 @@ function loadTranslations(langFile) {
             document.querySelector('.proyecto2 p').innerHTML = data.proyecto2_p;
             document.querySelector('.proyecto3 h5').innerHTML = data.proyecto3_h5;
             document.querySelector('.proyecto3 p').innerHTML = data.proyecto3_p;
-
             document.querySelector('#footer h4').textContent = data.contact;
             initializeTyped(data.typed_strings);
         })
